@@ -29,7 +29,6 @@ var METEOR = {
     x: Math.floor(Math.random() * (GAME.width - maxSize)),
     width: Math.floor(Math.random() * maxSize + minSize),
     y: -maxSize,
-    size: Math.floor(Math.random() * maxSize + minSize),
     speedy: Math.floor(Math.random() * maxSpeed + minSpeed),
     color: "black",
 }
@@ -126,7 +125,7 @@ function drawPlayer() {
 function drawLives() {
     if (PLAYER.live) {
         for (let i = 0; i < PLAYER.lives; i++) {
-            canvasContext.drawImage(PLAYER.live, InfoWindow.livex + i * 35, InfoWindow.livey);
+            canvasContext.drawImage(PLAYER.live, InfoWindow.livex + i * 35, InfoWindow.livey + 30);
         }
     }
 }
