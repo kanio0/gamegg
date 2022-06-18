@@ -119,7 +119,7 @@ function drawInfo() {
 
 function drawPlayer() {
     if (PLAYER.hero) {
-        canvasContext.drawImage(PLAYER.hero, PLAYER.x, PLAYER.y);
+        canvasContext.drawImage(PLAYER.hero, PLAYER.x, PLAYER.y-10);
     }
 }
 
