@@ -35,10 +35,10 @@ var METEOR = {
 }
 
 var PLAYER = {
-    x: 270,
-    y: 783,
-    width: 48,
-    height: 21,
+    x: GAME.width * 0.45,
+    y: GAME.height - 136,
+    width: 53,
+    height: 134,
     color: "orangeRed",
     score: 0,
     lives: 3,
