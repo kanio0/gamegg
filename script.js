@@ -29,6 +29,7 @@ var METEOR = {
     x: Math.floor(Math.random() * (GAME.width - maxSize)),
     width: Math.floor(Math.random() * maxSize + minSize),
     y: -maxSize,
+    size: Math.floor(Math.random() * maxSize + minSize),
     speedy: Math.floor(Math.random() * maxSpeed + minSpeed),
     color: "black",
 }
