@@ -36,7 +36,7 @@ var METEOR = {
 
 var PLAYER = {
     x: GAME.width * 0.45,
-    y: GAME.height - 136,
+    y: GAME.height - 156,
     width: 53,
     height: 134,
     color: "orangeRed",
