@@ -9,7 +9,7 @@ var InfoWindow = {
     width: 200,
     height: GAME.height,
     x: GAME.width,
-    backgroundColor: "gold",
+    backgroundColor: "red",
     textColor: "white",
     livex: 610,
     livey: 135,
@@ -119,7 +119,7 @@ function drawInfo() {
 
 function drawPlayer() {
     if (PLAYER.hero) {
-        canvasContext.drawImage(PLAYER.hero, PLAYER.x, PLAYER.y-20);
+        canvasContext.drawImage(PLAYER.hero, PLAYER.x, PLAYER.y-90);
     }
 }
 
